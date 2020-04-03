@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="description" content="">
+<title>Home</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/web/assets/mobirise-icons/mobirise-icons.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/tether/tether.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap-grid.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap-reboot.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/theme/css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/mobirise/css/mbr-additional.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+
+
+</head>
+<body>
+
+    <section class="carousel slide cid-r8mjewhmTk" data-interval="false" id="slider1-9">
+
+
+      <div class="full-screen">
+        <div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="5000">
+
+          <ol class="carousel-indicators">
+        <li data-app-prevent-settings="" data-target="#slider1-9" class=" active" data-slide-to="0"></li>
+        <li data-app-prevent-settings="" data-target="#slider1-9" data-slide-to="1"></li>
+        <li data-app-prevent-settings="" data-target="#slider1-9" data-slide-to="2"></li></ol>
+        <div class="carousel-inner" role="listbox">
+
+      <div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="true" style="background-image: url(/static/assets/images/6.gif);">
+
+      <div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div>
+      <img src="{{ url_for('static', filename='assets/kk.jpg') }}">
+
+      <div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Spurious</h2>
+        <br>
+      <p class="lead mbr-text mbr-fonts-style display-5">Web Based Fake News Detection and analysis software. Click to use now</p>
+
+      <div class="mbr-section-btn" buttons="0"><a class="btn btn-success display-4" href="http://127.0.0.1:5000/">Use Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(/static/assets/images/2.jpg);">
+    <div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div>
+    <img src="assets/images/1.jpg">
+    <div class="carousel-caption justify-content-center">
+      <div class="col-10 align-center">
+        <h2 class="mbr-fonts-style display-1">Easy to use</h2>
+        <p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest Options</p>
+        <div class="mbr-section-btn" buttons="0">
+         </div></div></div></div></div></div>
+
+               <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(/static/assets/images/1.jpg);">
+               <div class="mbr-overlay"></div><div class="container container-slide"><div class="image_wrapper">
+               <img src="assets/images/1.jpg" style="opacity: 0;">
+
+              <div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Spurious Information Security</h2><p class="lead mbr-text mbr-fonts-style display-5">A Toolkit for your data security</p>
+              <div class="mbr-section-btn" buttons="0">
+              <a class="btn  btn-white-outline display-4" href="http://192.168.43.244:5000/SpuriousTool/">
+                Use now</a></div></div></div></div></div></div>
+
+  </div>
+
+      <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-9"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a>
+
+      <a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-9"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
+
+  </section>
+
+  <section class="engine"><a href="http://192.168.43.244:5000/">responsive site templates</a></section><section class="header10 cid-rMructSFef mbr-fullscreen mbr-parallax-background" id="header10-d">
+
+
+      <div class="container">
+          <div class="media-container-column mbr-white col-lg-8 col-md-10 ml-auto">
+              <h1 class="mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style display-1">
+                  Personalize
+              </h1>
+              <h3 class="mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style display-2">
+                  Beautified WEB APP just for you.
+              </h3>
+              <p class="mbr-text align-right pb-3 mbr-fonts-style display-5">
+                 Enter your name to create profile and proceed with the usage now. The model is trained using thousand of manually scraped data sets. Providing
+best of the accuracy	<br><br>
+                 <input type="text" id="maintext" class="btn btn-md btn-white-outline display-4 align-right" style="border-radius: 15px 50px; padding: 20px; width: 200px; height: 40px; text-align: right; right: 0px; ">
+
+              </p>
+              <div class="mbr-section-btn align-right">
+
+                  <button onclick="myFunction()" class="btn btn-md btn-primary display-4">Profile</a>
+                  <script>
+                  function myFunction(){
+                    var a= document.getElementById("maintext").value;
+                    var b="http://127.0.0.1:5000/profile/"+a;
+                    window.location.replace(b);
+                        }
+                  </script>
+
+              </div>
+          </div>
+      </div>
+
+      <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+          <a href="#next">
+              <i class="mbri-down mbr-iconfont"></i>
+          </a>
+      </div>
+
+  </section>
+
+  <section class="header12 cid-rMruaDKp8h mbr-fullscreen mbr-parallax-background" id="header12-c">
+
+
+
+      <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(15, 118, 153);">
+      </div>
+
+      <div class="container  ">
+              <div class="media-container">
+                  <div class="col-md-12 align-center">
+                      <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">
+                          !! Meet The team !!
+                      </h1>
+                      <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">
+                        " Its not a bug , Its a FEATURE "
+                      </p>
+                      <div class="mbr-section-btn align-center py-2">
+                          <a class="btn btn-md btn-secondary display-4" href="http://127.0.0.1:5000/SpuriousTool/">Check out Tools</a>
+                      </div>
+
+                      <div class="icons-media-container mbr-white">
+                        <div class="icon-block">
+                            <a href="http://192.168.43.244:5000/SpuriousTool/">
+                                <div class="beauty1">
+                                </div>
+                            </a>
+                            <h5>
+                              Vikas kaka
+                            </h5>
+                        </div>
+
+                        <div class="icon-block">
+                            <a href="https://github.com/afirex/">
+                                <div class="beauty2">
+                                </div>
+                            </a>
+                            <h5 class="rr">
+                                Afi
+                            </h5>
+                            <h5>
+                                ( Aftab Mohammad )
+                            </h5>
+
+                        </div>
+                              <div class="icon-block">
+                                  <a href="https://github.com/karmashagya97">
+                                      <div class="beauty3">
+                                      </div>
+                                  </a>
+                                  <h5 class="rr">
+                                      karmashagya
+                                  </h5>
+                                  <h5>
+                                  ( Shivam Negi )
+                                  </h5>
+                              </div>
+
+
+                      </div>
+                  </div>
+              </div>
+              <br><br>
+      </div>
+
+      <div class="mbr-arrow">
+
+          <a href="http://127.0.0.1:5000/about">
+
+              <i class="mbri-up mbr-iconfont"></i>
+          </a>
+      </div>
+
+  </section>
+
+
+    <script src="{{ url_for('static', filename='assets/web/assets/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/popper/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/tether/tether.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/smoothscroll/smooth-scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/vimeoplayer/jquery.mb.vimeo_player.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/parallax/jarallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/ytplayer/jquery.mb.ytplayer.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/theme/js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/slidervideo/script.js') }}"></script>
+
+
+
+</body>
+</html>

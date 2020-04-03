@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<title>Hello from Spurious</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+  <body style="background: linear-gradient(#1e1e1e,#1e1e1e,#af1700);">
+    <heade
+  
+  
+{% if name %}
+  <h1 style="color: #af1700">Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, MAte!</h1>
+{% endif %}
+    
+
+ <div class="login">
+	<h3 style="font-family: monospace">Spurious - NEWS Analysis Engine</h3>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="news" placeholder="Enter the news url" required="required" /><br>
+        <button type="submit" class="but1 btn-hover color-1">Check</button>
+
+    </form>
+      {{ prediction_text }}
+   <br>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="125148/"></script> <!-- end feedwind code -->
+     <br>
+  
+</div>
+
+        
+</body>
+</html>

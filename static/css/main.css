@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.bgimg {
+  background-image: url('/w3/fo.gif');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background-color:rgb(1,0,0,.25);
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+.logo {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.container2 {
+  width: 85%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background-color: #FFA55A;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-size: 16px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background-color: #FF555a;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #55555a;
+  -webkit-border-radius: 26px;
+     -moz-border-radius: 26px;
+          border-radius: 26px;
+}
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #b4fc19;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 2px;
+}
+h1 {
+  font-size: 3em;
+  color: #222222;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  align-items: center;
+  border: 2px solid #555555;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #55555a ;
+    color: white;
+}
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+

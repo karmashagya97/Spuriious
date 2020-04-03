@@ -1,0 +1,33 @@
+.rr{
+   font-family: monospace;
+   font-style: italic;
+}
+.beauty1
+{
+    border-radius: 50%;
+    background-image: url(images\\vikas.jpeg);
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.beauty2
+{
+    border-radius: 50%;
+    background-image: url(images\\appleafi.png);
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.beauty3
+{
+    border-radius: 50%;
+    background-image: url(images\\karma.jpeg);
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
