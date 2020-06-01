@@ -39,6 +39,7 @@ def home():
 #Receiving the input url from the user and using Web Scrapping to extract the news content
 @app.route('/predict',methods=['GET','POST'])
 def predict():
+    res = "Fake"
     url =request.get_data(as_text=True)[5:]
     url = urllib.parse.unquote(url)
     article = Article(str(url))
@@ -48,7 +49,11 @@ def predict():
     news = article.summary
     #Passing the news article to the model and returing whether it is Fake or Real
     pred = model.predict([news])
-    return render_template('main.html', prediction_text='Analyzed Result: Proned "{}"'.format(pred[0]))
+    if pred[0] == 0:
+        res = "Fake"
+    else:
+        res = "Real"
+    return render_template('main.html', prediction_text='Analyzed Result: Proned "{}"'.format(res))
     
 
 

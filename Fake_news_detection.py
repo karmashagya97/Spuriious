@@ -11,12 +11,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 
 #Importing the cleaned file containing the text and label
-news = pd.read_csv('news.csv')
-X = news['text']
+news = pd.read_csv('final_data.csv')
+X = news['newstext']
 y = news['label']
 
 #Splitting the data into train
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4)
 
 #Creating a pipeline that first creates bag of words(after applying stopwords) & then applies Multinomial Naive Bayes model
 pipeline = Pipeline([('tfidf', TfidfVectorizer(stop_words='english')),
